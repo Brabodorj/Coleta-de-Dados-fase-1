@@ -1,0 +1,16 @@
+# CADASTRO
+nome = input('Digite o nome de usuário que deseja utilizar: ')
+
+senha = input('Digite sua senha: ')
+
+# login
+
+login = input('Digite seu usuário: ')
+if login == nome:
+    login_senha = input('Digite sua senha: ')
+    if login_senha == senha:
+        print('Login feito com sucesso!')
+    else:
+        print('Senha incorreta!')
+else:
+    print('Usuário não encontrado.')
